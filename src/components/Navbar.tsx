@@ -11,6 +11,7 @@ export default function Navbar() {
         { href: '#about', label: 'Bemutatkozás' },
         { href: '#services', label: 'Fellépések' },
         { href: '#videos', label: 'Videók' },
+        { href: '#teaching', label: 'Oktatás' },
         { href: '#contact', label: 'Kapcsolat' },
     ]
 
@@ -22,7 +23,7 @@ export default function Navbar() {
                 <div className="max-w-7xl mx-auto px-5 h-16 flex items-center justify-between">
 
                     {/* Logo */}
-                    <h1 className="text-[#C9A227] text-lg md:text-xl font-semibold tracking-[0.2em] uppercase">
+                    <h1 className="text-[#C9A227] text-lg md:text-xl  tracking-[0.2em] uppercase">
                         Ganyi Róbert
                     </h1>
 
@@ -61,9 +62,9 @@ export default function Navbar() {
 
                         {/* TOP BAR */}
                         <div className="flex items-center justify-between px-5 h-16 border-b border-white/10">
-                            <span className="text-[#C9A227] tracking-[0.2em] uppercase text-sm">
-                                Gányi Róbert
-                            </span>
+                            <h1 className="text-[#C9A227] text-lg md:text-xl  tracking-[0.2em] uppercase">
+                                Ganyi Róbert
+                            </h1>
 
                             <button
                                 onClick={() => setOpen(false)}

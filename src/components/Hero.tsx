@@ -14,12 +14,13 @@ export default function Hero() {
 
             <div className="relative z-10 max-w-4xl mx-auto text-center">
                 <p className="uppercase tracking-[0.35em] text-[#C9A227] text-xs md:text-sm mb-6">
-                    Jazz Pianist • Live Music • Premium Events
+                    Jazz • Élő Zene • Oktatás
                 </p>
 
                 <h1 className="text-5xl md:text-8xl font-light leading-none mb-6">
-                    <span className="block text-[#F3F3F3]">Ganyi</span>
-                    <span className="block text-[#C9A227] italic">Róbert</span>
+                    <h1 className="block text-[#F3F3F3]">Ganyi 
+                        <span className=" text-[#C9A227] "> Róbert</span>
+                    </h1>
                 </h1>
 
                 <p className="max-w-2xl mx-auto text-[#c5c5c5] text-base md:text-xl leading-relaxed mb-10">

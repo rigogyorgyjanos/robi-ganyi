@@ -6,6 +6,7 @@ import References from '../components/References'
 import Videos from '../components/Videos'
 import Contact from '../components/Contact'
 import SectionDivider from '../components/SectionDiveder'
+import Teacher from '../components/Teacher'
 
 
 const videos = [
@@ -53,6 +54,7 @@ export default function Home() {
                 <Videos videos={videos} />
                 {/* <SectionDivider />
                 <Timeline /> */}
+                <Teacher />
                 <SectionDivider />
                 <Contact />
             </main>
