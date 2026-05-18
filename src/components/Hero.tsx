@@ -18,9 +18,9 @@ export default function Hero() {
                 </p>
 
                 <h1 className="text-5xl md:text-8xl font-light leading-none mb-6">
-                    <h1 className="block text-[#F3F3F3]">Ganyi 
+                    <p className="block text-[#F3F3F3]">Ganyi 
                         <span className=" text-[#C9A227] "> Róbert</span>
-                    </h1>
+                    </p>
                 </h1>
 
                 <p className="max-w-2xl mx-auto text-[#c5c5c5] text-base md:text-xl leading-relaxed mb-10">
