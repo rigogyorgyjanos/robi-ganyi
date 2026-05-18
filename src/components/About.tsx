@@ -36,11 +36,11 @@ export default function About() {
                     <img
                         src="/about.jpg"
                         alt="Ganyi Róbert jazz pianist"
-                        className="w-full h-[500px] object-cover group-hover:scale-105 transition-transform duration-700"
+                        className="w-full h-125 object-cover group-hover:scale-105 transition-transform duration-700"
                     />
 
                     {/* overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                    <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent" />
 
                     {/* caption bottom left */}
                     <div className="absolute bottom-6 left-6 right-6">
