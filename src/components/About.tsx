@@ -16,20 +16,20 @@ export default function About() {
 
                     <div className="space-y-6 text-[#c8c8c8] leading-relaxed text-lg">
                         <p>
-                            Ganyi Róbert a Liszt Ferenc Zeneművészeti Egyetem jazz-zongora szakán végzett,
-                            ahol klasszikus és modern jazz zenei képzést szerzett.
+                            A Liszt Ferenc Zeneművészeti Egyetem jazz-zongora szakán végeztem,
+                            ahol klasszikus és modern jazz zenei képzésben részesültem.
                         </p>
 
                         <p>
-                            Aktív előadóművészként szólóban, duóban és különböző zenekari formációkban
-                            vállal fellépéseket, elsősorban igényes élőzenei környezetekben, hotelekben,
-                            jazz klubokban és exkluzív rendezvényeken.
+                            Aktív előadóművészként szólóban, duóban és különböző zenekari
+                            formációkban vállalok fellépéseket, elsősorban igényes élőzenei
+                            környezetekben, hotelekben, jazz klubokban és exkluzív rendezvényeken.
                         </p>
 
                         <p>
-                            Emellett zongorát is oktat, kezdő és haladó tanítványokkal egyaránt foglalkozik,
-                            beleértve a gyerekek zenei nevelését is, ahol a hangsúly az alapok játékos és
-                            inspiráló elsajátításán van.
+                            Emellett zongoraoktatással is foglalkozom. Kezdő és haladó
+                            tanítványokat egyaránt tanítok, beleértve a gyerekek zenei nevelését is,
+                            ahol fontos számomra, hogy a tanulás inspiráló és élvezetes élmény legyen.
                         </p>
                     </div>
                 </div>

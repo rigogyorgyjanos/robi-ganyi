@@ -38,7 +38,7 @@ export default function Teacher() {
                 </div>
 
                 {/* IMAGE */}
-                <div className="relative rounded-3xl overflow-hidden border border-[#1d1d1d] h-[320px] md:h-auto">
+                <div className="relative rounded-3xl overflow-hidden border border-[#1d1d1d] h-80 md:h-auto">
                     <img
                         src="/teaching.jpg"
                         alt="Piano teaching"

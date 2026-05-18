@@ -100,7 +100,7 @@ export default function Navbar() {
                             </a>
 
                             <a
-                                href="https://m.me/"
+                                href="https://m.me/robi.ganyi"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="flex-1 flex items-center justify-center gap-2 border border-[#C9A227] text-white py-4 rounded-2xl"

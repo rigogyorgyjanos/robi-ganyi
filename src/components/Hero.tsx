@@ -18,7 +18,7 @@ export default function Hero() {
                 </p>
 
                 <h1 className="text-5xl md:text-8xl font-light leading-none mb-6">
-                    <p className="block text-[#F3F3F3]">Ganyi 
+                    <p className="block text-[#F3F3F3]">Ganyi
                         <span className=" text-[#C9A227] "> Róbert</span>
                     </p>
                 </h1>
@@ -36,7 +36,7 @@ export default function Hero() {
                     </a>
 
                     <a
-                        href="https://m.me/"
+                        href="https://m.me/robi.ganyi"
                         target="_blank"
                         rel="noreferrer"
                         className="w-full sm:w-auto px-8 py-4 rounded-full border border-[#C9A227]"
