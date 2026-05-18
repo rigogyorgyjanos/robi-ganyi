@@ -52,7 +52,7 @@ export default function Navbar() {
 
             {/* ================= MOBILE MENU ================= */}
             {open && (
-                <div className="fixed inset-0 z-999">
+                <div className="fixed inset-0 z-100">
 
                     {/* BACKDROP */}
                     <div className="absolute inset-0 bg-black/60 backdrop-blur-2xl" />
@@ -75,16 +75,22 @@ export default function Navbar() {
                         </div>
 
                         {/* LINKS */}
-                        <div className="flex-1 flex flex-col items-center justify-center gap-10">
-                            {links.map((link) => (
-                                <a
-                                    key={link.href}
-                                    href={link.href}
-                                    onClick={() => setOpen(false)}
-                                    className="text-2xl text-white hover:text-[#C9A227] transition uppercase"
-                                >
-                                    {link.label}
-                                </a>
+                        <div className="flex-1 flex flex-col items-center justify-center gap-6">
+                            {links.map((link, index) => (
+                                <div key={index}>
+                                    <a
+                                        key={link.href}
+                                        href={link.href}
+                                        onClick={() => setOpen(false)}
+                                        className="text-2xl p-0 text-white hover:text-[#C9A227] transition uppercase"
+                                    >
+                                        {link.label}
+                                    </a>
+                                    {index !== links.length - 0 && (
+                                        <div className=" mt-2 h-0.5 bg-linear-to-r from-transparent via-[#C9A227]/20 to-transparent z-60" />
+                                    )}
+
+                                </div>
                             ))}
                         </div>
 
