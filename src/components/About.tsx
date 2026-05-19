@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next'
+
 export default function About() {
+    const { t } = useTranslation()
+
     return (
         <section id="about" className="max-w-7xl mx-auto px-5 py-20 md:py-32">
 
@@ -7,54 +11,38 @@ export default function About() {
                 {/* TEXT SIDE */}
                 <div>
                     <p className="text-[#C9A227] uppercase tracking-[0.3em] text-xs mb-5">
-                        Bemutatkozás
+                        {t('about.titleSmall')}
                     </p>
 
                     <h2 className="text-4xl md:text-6xl font-light leading-tight mb-8">
-                        Diplomás jazz-zongoraművész
+                        {t('about.title')}
                     </h2>
 
                     <div className="space-y-6 text-[#c8c8c8] leading-relaxed text-lg">
-                        <p>
-                            A Liszt Ferenc Zeneművészeti Egyetem jazz-zongora szakán végeztem,
-                            ahol klasszikus és modern jazz zenei képzésben részesültem.
-                        </p>
-
-                        <p>
-                            Aktív előadóművészként szólóban, duóban és különböző zenekari
-                            formációkban vállalok fellépéseket, elsősorban igényes élőzenei
-                            környezetekben, hotelekben, jazz klubokban és exkluzív rendezvényeken.
-                        </p>
-
-                        <p>
-                            Emellett zongoraoktatással is foglalkozom. Kezdő és haladó
-                            tanítványokat egyaránt tanítok, beleértve a gyerekek zenei nevelését is,
-                            ahol fontos számomra, hogy a tanulás inspiráló és élvezetes élmény legyen.
-                        </p>
+                        <p>{t('about.text1')}</p>
+                        <p>{t('about.text2')}</p>
+                        <p>{t('about.text3')}</p>
                     </div>
                 </div>
 
                 {/* IMAGE SIDE */}
                 <div className="relative rounded-3xl overflow-hidden border border-[#1d1d1d] group">
 
-                    {/* image */}
                     <img
                         src="/about.jpg"
                         alt="Ganyi Róbert jazz pianist"
                         className="w-full h-125 object-cover group-hover:scale-105 transition-transform duration-700"
                     />
 
-                    {/* overlay */}
                     <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent" />
 
-                    {/* caption bottom left */}
                     <div className="absolute bottom-6 left-6 right-6">
                         <p className="text-[#F3F3F3] text-lg md:text-xl font-light">
-                            Ganyi Róbert
+                            {t('about.name')}
                         </p>
 
                         <p className="text-[#C9A227] text-sm tracking-wide">
-                            Jazz zongoraművész • Tanár
+                            {t('about.role')}
                         </p>
                     </div>
 

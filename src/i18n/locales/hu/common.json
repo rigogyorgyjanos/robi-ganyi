@@ -1,0 +1,90 @@
+{
+    "navbar": {
+        "about": "Bemutatkozás",
+        "services": "Fellépések",
+        "videos": "Videók",
+        "teaching": "Oktatás",
+        "contact": "Kapcsolat",
+        "call": "Hívás",
+        "chat": "Chat"
+    },
+    "hero": {
+        "tagline": "Jazz • Élő Zene • Oktatás",
+        "titleFirst": "Ganyi",
+        "titleSecond": "Róbert",
+        "description": "Elegáns élőzene rendezvényekre, hotelekbe, vacsoraestekre és exkluzív eseményekre.",
+        "ctaCall": "Hívás most",
+        "ctaMessenger": "Messenger kapcsolat"
+    },
+    "about": {
+        "titleSmall": "Bemutatkozás",
+        "title": "Diplomás jazz-zongoraművész",
+        "text1": "A Liszt Ferenc Zeneművészeti Egyetem jazz-zongora szakán végeztem, ahol klasszikus és modern jazz zenei képzésben részesültem.",
+        "text2": "Aktív előadóművészként szólóban, duóban és különböző zenekari formációkban vállalok fellépéseket, elsősorban igényes élőzenei környezetekben, hotelekben, jazz klubokban és exkluzív rendezvényeken.",
+        "text3": "Emellett zongoraoktatással is foglalkozom. Kezdő és haladó tanítványokat egyaránt tanítok, beleértve a gyerekek zenei nevelését is, ahol fontos számomra, hogy a tanulás inspiráló és élvezetes élmény legyen.",
+        "name": "Ganyi Róbert",
+        "role": "Jazz zongoraművész • Tanár"
+    },
+    "contact": {
+        "titleSmall": "Kapcsolat",
+        "title": "Foglaljon időpontot fellépésre",
+        "description": "Rendezvényekre, vacsoraestekre, hotel fellépésekre és exkluzív eseményekre. Saját Yamaha elektromos zongora biztosított igény esetén.",
+        "phone": "+36 70 229 5790",
+        "email": "ganyirobert@gmail.com"
+    },
+    "references": {
+        "titleSmall": "Referenciák",
+        "title": "Korábbi fellépések"
+    },
+    "services": {
+        "titleSmall": "Fellépések",
+        "title": "Zenei szolgáltatások",
+        "items": [
+            {
+                "title": "Szóló zongoraest",
+                "text": "Elegáns háttérzene vacsoraestekre, lounge eseményekre és exkluzív fogadásokra."
+            },
+            {
+                "title": "Hotel & Étterem",
+                "text": "Prémium élőzenei atmoszféra hoteleknek és fine dining helyszíneknek."
+            },
+            {
+                "title": "Rendezvények",
+                "text": "Esküvők, céges események, privát rendezvények és különleges alkalmak."
+            },
+            {
+                "title": "Zenekari formációk",
+                "text": "Jazz, fusion és modern könnyűzenei felállások különböző eseményekre."
+            }
+        ]
+    },
+    "teacher": {
+        "titleSmall": "Oktatás",
+        "title": "Zongoraoktatás",
+        "items": [
+            {
+                "title": "Egyéni oktatás",
+                "text": "A tanítás során személyre szabott módszerrel dolgozom, minden tanuló saját tempójához igazodva."
+            },
+            {
+                "title": "Gyerekek és felnőttek",
+                "text": "Kezdő gyerekekkel is foglalkozom, ahol a cél a zenei alapok játékos és motiváló elsajátítása."
+            },
+            {
+                "title": "Jazz & klasszikus alapok",
+                "text": "A tananyagban a klasszikus technika és a jazz improvizáció alapjai egyaránt szerepelnek."
+            },
+            {
+                "title": "Inspiráló fejlődés",
+                "text": "Célom, hogy a tanulás ne csak technikai fejlődés legyen, hanem valódi zenei élmény is."
+            }
+        ],
+        "imageCaption": "Zongoraóra • Fejlesztés • Korrepetálás"
+    },
+    "videos": {
+        "titleSmall": "Videók",
+        "title": "Előadások",
+        "reportTitle": "Riport",
+        "cta": "Megtekintés YouTube-on →"
+    }
+}

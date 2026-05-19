@@ -1,0 +1,90 @@
+{
+    "navbar": {
+        "about": "About",
+        "services": "Performances",
+        "videos": "Videos",
+        "teaching": "Teaching",
+        "contact": "Contact",
+        "call": "Call",
+        "chat": "Message"
+    },
+    "hero": {
+        "tagline": "Jazz • Live Music • Teaching",
+        "titleFirst": "Ganyi",
+        "titleSecond": "Robert",
+        "description": "Elegant live piano music for events, hotels, dinner evenings and exclusive occasions.",
+        "ctaCall": "Call now",
+        "ctaMessenger": "Messenger contact"
+    },
+    "about": {
+        "titleSmall": "About me",
+        "title": "Professional jazz pianist",
+        "text1": "I graduated from the Liszt Ferenc Academy of Music, Jazz Piano Department, where I received classical and modern jazz training.",
+        "text2": "As an active performer, I play solo, duo and in various ensembles, mainly in high-quality live music environments such as hotels, jazz clubs and exclusive events.",
+        "text3": "I also teach piano. I work with beginners and advanced students, including children, focusing on making music education inspiring and enjoyable.",
+        "name": "Ganyi Róbert",
+        "role": "Jazz pianist • Teacher"
+    },
+    "contact": {
+        "titleSmall": "Contact",
+        "title": "Book a performance",
+        "description": "Available for events, dinner evenings, hotel performances and exclusive occasions. Own Yamaha digital piano available on request.",
+        "phone": "+36 70 229 5790",
+        "email": "ganyirobert@gmail.com"
+    },
+    "references": {
+        "titleSmall": "References",
+        "title": "Past performances"
+    },
+    "services": {
+        "titleSmall": "Performances",
+        "title": "Musical services",
+        "items": [
+            {
+                "title": "Solo piano evening",
+                "text": "Elegant background music for dinner events, lounge occasions and exclusive receptions."
+            },
+            {
+                "title": "Hotels & Restaurants",
+                "text": "Premium live music atmosphere for hotels and fine dining venues."
+            },
+            {
+                "title": "Events",
+                "text": "Weddings, corporate events, private functions and special occasions."
+            },
+            {
+                "title": "Band formations",
+                "text": "Jazz, fusion and modern pop/jazz ensembles for various events."
+            }
+        ]
+    },
+    "teacher": {
+        "titleSmall": "Teaching",
+        "title": "Piano lessons",
+        "items": [
+            {
+                "title": "Private lessons",
+                "text": "I use a personalized teaching approach, adapting to each student’s pace."
+            },
+            {
+                "title": "Children & adults",
+                "text": "I also teach beginners, including children, focusing on playful and motivating music learning."
+            },
+            {
+                "title": "Jazz & classical foundations",
+                "text": "The curriculum includes both classical technique and jazz improvisation fundamentals."
+            },
+            {
+                "title": "Inspiring progress",
+                "text": "My goal is that learning becomes not just technical development, but a real musical experience."
+            }
+        ],
+        "imageCaption": "Piano lessons • Development • Coaching"
+    },
+    "videos": {
+        "titleSmall": "Videos",
+        "title": "Performances",
+        "reportTitle": "Interviews",
+        "cta": "Watch on YouTube →"
+    }
+}
