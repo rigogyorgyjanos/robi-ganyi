@@ -87,7 +87,7 @@ function ImageBlock() {
     const { t } = useTranslation()
 
     return (
-        <div className="relative rounded-[2rem] overflow-hidden border border-[#1d1d1d] h-[500px]">
+        <div className="relative rounded-4xl overflow-hidden border border-[#1d1d1d] h-125">
 
             <img
                 src="/teaching.jpg"
@@ -95,7 +95,7 @@ function ImageBlock() {
                 className="w-full h-full object-cover"
             />
 
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/20 to-transparent" />
 
             <div className="absolute bottom-6 left-6 right-6">
 

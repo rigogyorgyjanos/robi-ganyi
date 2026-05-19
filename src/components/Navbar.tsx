@@ -38,7 +38,8 @@ export default function Navbar() {
                 <div className="max-w-7xl mx-auto px-5 h-16 flex items-center justify-between">
 
                     <h1 className="text-[#C9A227] text-lg md:text-xl tracking-[0.2em] uppercase">
-                        Ganyi Róbert
+                        <a href="/">Ganyi Róbert</a>
+                        
                     </h1>
 
                     {/* Desktop menu */}
@@ -100,7 +101,7 @@ export default function Navbar() {
 
                         <div className="flex items-center justify-between px-5 h-16 border-b border-white/10">
                             <h1 className="text-[#C9A227] tracking-[0.2em] uppercase">
-                                Ganyi Róbert
+                                <a href="/">Ganyi Róbert</a>
                             </h1>
 
                             <button
