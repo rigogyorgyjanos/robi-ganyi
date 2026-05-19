@@ -12,20 +12,28 @@ import Teacher from '../components/Teacher'
 const videos = [
     {
         title: 'Jazz Performance',
-        url: 'https://youtu.be/acq7ceCx_BE?si=aVXACRV_iBx_6xOS',
+        url: 'https://youtu.be/pzNjH5yb5E8',
         indexImage: "/jazz-performance.jpg",
     },
     {
-        title: 'Live Piano Session',
-        url: 'https://youtu.be/pzNjH5yb5E8?si=1VDQ1ZHyyN15mKNP',
+        title: 'Jazz Dou Session',
+        url: 'https://www.youtube.com/watch?v=AEa00twCfmk',
         indexImage: "/live-piano-session.jpg",
     },
     {
-        title: 'Hotel Performance',
-        url: 'https://youtu.be/RPN9789oOas?si=RT3NkCFjuYv4d-u2',
+        title: 'Solo Jazz',
+        url: 'https://www.youtube.com/shorts/GGu7wOCXCDs?feature=share',
         indexImage: "/hotel-performance.jpg",
     },
+    {
+        title: 'Riport',
+        url: 'https://youtu.be/IlzCrIECGFA',
+        indexImage: '/riport.jpg',
+        riport: true,
+
+    }
 ]
+
 
 const references = [
     'Müpa',

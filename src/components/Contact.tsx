@@ -15,7 +15,7 @@ export default function Contact() {
 
                     <p className="max-w-2xl mx-auto text-[#c8c8c8] text-lg leading-relaxed mb-10">
                         Rendezvényekre, vacsoraestekre, hotel fellépésekre és exkluzív eseményekre.
-                        Saját Yamaha P-80 elektromos zongora biztosított igény esetén.
+                        Saját Yamaha elektromos zongora biztosított igény esetén.
                     </p>
 
                     <div className="flex flex-col md:flex-row items-center justify-center gap-4">
