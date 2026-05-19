@@ -6,7 +6,9 @@
         "teaching": "Oktatás",
         "contact": "Kapcsolat",
         "call": "Hívás",
-        "chat": "Chat"
+        "chat": "Chat",
+        "lang": "Nyelv",
+        "menu": "Menü"
     },
     "hero": {
         "tagline": "Jazz • Élő Zene • Oktatás",

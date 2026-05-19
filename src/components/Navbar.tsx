@@ -61,31 +61,32 @@ export default function Navbar() {
                     >
                         <HiOutlineMenu />
                     </button>
-                </div>
 
-                {/* DESKTOP LANG SWITCH */}
-                <div className="flex items-center gap-3 ml-6 border-l border-[#2a2a2a] pl-6">
-                    <button
-                        onClick={() => switchLang('hu')}
-                        className={`text-sm transition ${currentLang === 'hu'
+
+                    {/* DESKTOP LANG SWITCH */}
+                    <div className="items-center gap-3 ml-6 border-l border-[#2a2a2a] pl-6 hidden md:flex ">
+                        <button
+                            onClick={() => switchLang('hu')}
+                            className={`text-sm transition ${currentLang === 'hu'
                                 ? 'text-[#C9A227]'
                                 : 'text-[#d5d5d5] hover:text-[#C9A227]'
-                            }`}
-                    >
-                        HU
-                    </button>
+                                }`}
+                        >
+                            HU
+                        </button>
 
-                    <span className="text-[#444]">|</span>
+                        <span className="text-[#444]">|</span>
 
-                    <button
-                        onClick={() => switchLang('en')}
-                        className={`text-sm transition ${currentLang === 'en'
+                        <button
+                            onClick={() => switchLang('en')}
+                            className={`text-sm transition ${currentLang === 'en'
                                 ? 'text-[#C9A227]'
                                 : 'text-[#d5d5d5] hover:text-[#C9A227]'
-                            }`}
-                    >
-                        EN
-                    </button>
+                                }`}
+                        >
+                            EN
+                        </button>
+                    </div>
                 </div>
             </header>
 
@@ -111,7 +112,12 @@ export default function Navbar() {
                         </div>
 
                         {/* LINKS */}
-                        <div className="flex-1 flex flex-col items-center justify-center gap-6">
+                        <div className="flex-1 flex flex-col items-start gap-6 px-3 py-8">
+                            {/* LABEL */}
+                            <p className="text-xs uppercase tracking-[0.3em] text-[#777]">
+                                {t('navbar.menu')}
+                            </p>
+
                             {links.map((link, index) => (
                                 <div key={link.href} className="flex flex-col items-center">
                                     <a
@@ -123,40 +129,49 @@ export default function Navbar() {
                                     </a>
 
                                     {index !== links.length - 1 && (
-                                        <div className="mt-3 h-0.5 w-24 bg-gradient-to-r from-transparent via-[#C9A227]/20 to-transparent" />
+                                        <div className="mt-3 h-0.5 w-24 bg-linear-to-r from-transparent via-[#C9A227]/20 to-transparent" />
                                     )}
                                 </div>
                             ))}
 
-                            {/* MOBILE LANG SWITCH */}
-                            <div className="flex items-center gap-6 mt-10">
-                                <button
-                                    onClick={() => {
-                                        switchLang('hu')
-                                        setOpen(false)
-                                    }}
-                                    className={`text-lg ${currentLang === 'hu'
+                            {/*  MOBILE LANG SWITCH */}
+                            <div className="mt-10 flex flex-col items-center gap-3">
+
+                                {/* LABEL */}
+                                <p className="text-xs uppercase tracking-[0.3em] text-[#777]">
+                                    {t('navbar.lang')}
+                                </p>
+
+                                {/* SWITCH */}
+                                <div className="flex items-center gap-3 text-lg">
+
+                                    <button
+                                        onClick={() => {
+                                            switchLang('hu')
+                                        }}
+                                        className={`transition ${currentLang === 'hu'
                                             ? 'text-[#C9A227]'
                                             : 'text-white'
-                                        }`}
-                                >
-                                    HU
-                                </button>
+                                            }`}
+                                    >
+                                        HU
+                                    </button>
 
-                                <span className="text-[#444]">/</span>
+                                    <span className="text-[#444]">/</span>
 
-                                <button
-                                    onClick={() => {
-                                        switchLang('en')
-                                        setOpen(false)
-                                    }}
-                                    className={`text-lg ${currentLang === 'en'
+                                    <button
+                                        onClick={() => {
+                                            switchLang('en')
+                                        }}
+                                        className={`transition ${currentLang === 'en'
                                             ? 'text-[#C9A227]'
                                             : 'text-white'
-                                        }`}
-                                >
-                                    EN
-                                </button>
+                                            }`}
+                                    >
+                                        EN
+                                    </button>
+
+                                </div>
                             </div>
                         </div>
 

@@ -6,7 +6,9 @@
         "teaching": "Teaching",
         "contact": "Contact",
         "call": "Call",
-        "chat": "Message"
+        "chat": "Message",
+        "lang": "Language",
+        "menu": "Menu"
     },
     "hero": {
         "tagline": "Jazz • Live Music • Teaching",
