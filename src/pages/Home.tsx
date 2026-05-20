@@ -7,6 +7,10 @@ import Videos from '../components/Videos'
 import Contact from '../components/Contact'
 import SectionDivider from '../components/SectionDiveder'
 import Teacher from '../components/Teacher'
+import SEO from '../components/SEO'
+
+
+
 
 
 const videos = [
@@ -45,8 +49,11 @@ const references = [
 ]
 
 export default function Home() {
+
+
     return (
         <div className="bg-[#0B0B0B] text-[#F3F3F3] min-h-screen overflow-x-hidden selection:bg-[#C9A227] selection:text-black">
+            <SEO />
             <Navbar />
 
             <main>
@@ -60,8 +67,6 @@ export default function Home() {
                 <SectionDivider />
                 <SectionDivider />
                 <Videos videos={videos} />
-                {/* <SectionDivider />
-                <Timeline /> */}
                 <Teacher />
                 <SectionDivider />
                 <Contact />

@@ -8,7 +8,7 @@ export default function Hero() {
 
             <div className="absolute inset-0">
                 <img
-                    src="https://images.unsplash.com/photo-1514119412350-e174d90d280e?q=80&w=2000&auto=format&fit=crop"
+                    src="/hero-banner.jpg"
                     alt="Piano"
                     className="w-full h-full object-cover"
                 />
