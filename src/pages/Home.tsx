@@ -20,7 +20,7 @@ const videos = [
         indexImage: "/jazz-performance.jpg",
     },
     {
-        title: 'Jazz Dou Session',
+        title: 'Jazz Duo Session',
         url: 'https://www.youtube.com/watch?v=AEa00twCfmk',
         indexImage: "/live-piano-session.jpg",
     },
